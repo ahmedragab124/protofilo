@@ -36,7 +36,6 @@ Qena, Egypt · Available for Hiring · Built with React 19 & Tailwind CSS v4
 - [Skills Matrix](#-skills-matrix)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
-- [Performance Optimizations](#-performance-optimizations)
 - [Getting Started](#-getting-started)
 - [Contact](#-contact)
 
@@ -58,11 +57,11 @@ Key identities reflected in this portfolio:
 
 ## 🌐 Live Preview
 
-| Platform | Link |
-|---|---|
-| 🐙 GitHub | [github.com/ahmedragab124](https://github.com/ahmedragab124) |
-| 💼 LinkedIn | [linkedin.com/in/ahmed-ragab-9a6680284](https://www.linkedin.com/in/ahmed-ragab-9a6680284) |
-| 📸 Instagram | [instagram.com/_abo__ragab](https://www.instagram.com/_abo__ragab/) |
+| Platform     | Link                                                                                       |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| 🐙 GitHub    | [github.com/ahmedragab124](https://github.com/ahmedragab124)                               |
+| 💼 LinkedIn  | [linkedin.com/in/ahmed-ragab-9a6680284](https://www.linkedin.com/in/ahmed-ragab-9a6680284) |
+| 📸 Instagram | [instagram.com/\_abo\_\_ragab](https://www.instagram.com/_abo__ragab/)                     |
 
 ---
 
@@ -70,15 +69,15 @@ Key identities reflected in this portfolio:
 
 The portfolio is a single-page application with the following sections, all accessible via the sticky floating navbar:
 
-| # | Section | Anchor |
-|---|---|---|
-| 1 | Hero — Typewriter, Portrait, Socials | `#` (top) |
-| 2 | About Me — Bio, Highlights, CTAs | `#about` |
-| 3 | Technical Stack — Skills Matrix | `#skills` |
-| 4 | Projects — Infinite Spring Carousel | `#work` |
-| 5 | Services & Expertise | `#services` |
-| 6 | Experience — Orbit Timeline | `#experience` |
-| 7 | Contact — Form + Info | `#contact` |
+| #   | Section                              | Anchor        |
+| --- | ------------------------------------ | ------------- |
+| 1   | Hero — Typewriter, Portrait, Socials | `#` (top)     |
+| 2   | About Me — Bio, Highlights, CTAs     | `#about`      |
+| 3   | Technical Stack — Skills Matrix      | `#skills`     |
+| 4   | Projects — Infinite Spring Carousel  | `#work`       |
+| 5   | Services & Expertise                 | `#services`   |
+| 6   | Experience — Orbit Timeline          | `#experience` |
+| 7   | Contact — Form + Info                | `#contact`    |
 
 ---
 
@@ -86,33 +85,37 @@ The portfolio is a single-page application with the following sections, all acce
 
 The **Orbit Timeline** section presents 4 career stations in an interactive 3D arc (desktop) and a horizontal glassmorphic hub (mobile):
 
-| ID | Role | Organization | Period |
-|---|---|---|---|
-| **01** | Competitive Programming Mentor | ICPC SVNU Community · Qena, Egypt | 2023 – Present |
+| ID     | Role                                | Organization                             | Period              |
+| ------ | ----------------------------------- | ---------------------------------------- | ------------------- |
+| **01** | Competitive Programming Mentor      | ICPC SVNU Community · Qena, Egypt        | 2023 – Present      |
 | **02** | React Frontend Developer Specialist | Digital Egypt Pioneers Initiative (DEPI) | Fellowship Graduate |
-| **03** | Competitive Programming Competitor | ICPC Contest Circuit (ACPC & ECPC) | 2025 |
-| **04** | Computer Science & AI Undergrad | Faculty of Computers & AI — SVNU | 2023 – 2028 |
+| **03** | Competitive Programming Competitor  | ICPC Contest Circuit (ACPC & ECPC)       | 2025                |
+| **04** | Computer Science & AI Undergrad     | Faculty of Computers & AI — SVNU         | 2023 – 2028         |
 
 ### Experience Highlights:
 
 **01 — ICPC Community Mentor**
+
 - Coached newcomers in C++ programming, OOP principles, and algorithmic thinking
 - Delivered training sessions on core problem-solving techniques
 - Supported teams for ICPC-style contests and regional events
 - Skills: `C++` `Algorithms` `Data Structures` `Problem Solving` `Mentorship` `Team Coaching`
 
 **02 — DEPI React Graduate**
+
 - Architected React 19 SPAs with Tailwind CSS, state management, and REST APIs
 - Trained in Business English, Freelancing, and Agile workflows
 - Engineered production-ready components following WCAG & Lighthouse standards
 - Skills: `React.js` `JavaScript (ES6+)` `Tailwind CSS` `REST APIs` `Business English` `Agile`
 
 **03 — ACPC & ECPC Finalist 2025**
+
 - ECPC Qualifications (Aug 2025) — Egyptian Collegiate Programming Contest
 - ACPC Kickoff Online Contest (Apr 2025) — Honorable Mention (Individual Contest)
 - Skills: `C++ Speed Coding` `Competitive Algorithms` `Graph Theory` `Dynamic Programming`
 
 **04 — CS & AI Student**
+
 - Bachelor's Degree in Computer Science & Artificial Intelligence (2nd Year)
 - Focus on AI fundamentals, OOP, and Data Structures
 - Arabic (Native) · English (Very Good)
@@ -122,18 +125,19 @@ The **Orbit Timeline** section presents 4 career stations in an interactive 3D a
 
 ## 🧩 Services
 
-| # | Service | Description |
-|---|---|---|
-| **01** | Algorithms & Problem Solving | C++, OOP, Data Structures, Algorithmic Thinking — ACPC & ECPC Finalist |
-| **02** | Frontend React Development | React 19, Vite, Tailwind CSS — clean, scalable, high-performance web apps |
-| **03** | Competitive Programming Coaching | Mentoring newcomers at ICPC SVNU Community in algorithms & contest prep |
-| **04** | Responsive Web Engineering | Mobile-first, cross-device fluid websites with optimized UI/UX |
+| #      | Service                          | Description                                                               |
+| ------ | -------------------------------- | ------------------------------------------------------------------------- |
+| **01** | Algorithms & Problem Solving     | C++, OOP, Data Structures, Algorithmic Thinking — ACPC & ECPC Finalist    |
+| **02** | Frontend React Development       | React 19, Vite, Tailwind CSS — clean, scalable, high-performance web apps |
+| **03** | Competitive Programming Coaching | Mentoring newcomers at ICPC SVNU Community in algorithms & contest prep   |
+| **04** | Responsive Web Engineering       | Mobile-first, cross-device fluid websites with optimized UI/UX            |
 
 ---
 
 ## 💼 Projects Showcased
 
 ### 01 — Jawla (جولة) · AI Tourism Platform
+
 > Category: `AI TOURISM PLATFORM`
 
 An Egyptian tourism platform transforming how travelers experience Egypt. Features Google Gemini AI trip planning, unexplored hidden gems across 27 governorates, certified Egyptologist tour guides marketplace, Supabase, React Hook Form, and Zod.
@@ -145,6 +149,7 @@ An Egyptian tourism platform transforming how travelers experience Egypt. Featur
 ---
 
 ### 02 — Personal Portfolio V1
+
 > Category: `PORTFOLIO / UI DESIGN`
 
 موقع شخصي احترافي يضم أقسام About Me, Education, Skills, Services, Projects, و Contact لبناء سيرة ذاتية إلكترونية متجاوبة باستخدام HTML5, CSS3, و JavaScript.
@@ -156,6 +161,7 @@ An Egyptian tourism platform transforming how travelers experience Egypt. Featur
 ---
 
 ### 03 — Responsive Portfolio V2
+
 > Category: `SINGLE-PAGE PORTFOLIO`
 
 موقع بورتفوليو تفاعلي مصمم كصفحة واحدة (Single Page App) يحتوي على Hero Section, Resume, Testimonials, شريط تنقل جانبي وتأثيرات Typed.js التفاعلية.
@@ -168,32 +174,36 @@ An Egyptian tourism platform transforming how travelers experience Egypt. Featur
 ## 🛠 Skills Matrix
 
 ### Frontend Engineering · `PRIMARY STACK`
+
 `React.js (React 19)` `JavaScript (ES6+)` `Tailwind CSS` `Vite & Build Tools` `Framer Motion` `Responsive Web Design` `HTML5 & Semantic UI`
 
 ### Core CS & Algorithms · `COMPETITIVE RANKED`
+
 `C++ Programming` `Object-Oriented Programming (OOP)` `Data Structures & Algorithms` `Competitive Programming (ECPC Finalist)` `Problem Solving` `Analytical Thinking`
 
 ### Architecture & Tools · `PRODUCTION READY`
+
 `RESTful API Integration` `Git & GitHub Version Control` `React Hook Form & Zod` `State Management` `Lighthouse Performance Optimization` `Clean Code Architecture`
 
 ### Professional Competencies · `DEPI CERTIFIED`
+
 `DEPI React Track Graduate` `ICPC SVNU Community Mentor` `Business English Communication` `Agile & Team Collaboration` `Freelancing & Client Delivery`
 
 ---
 
 ## 🚀 Tech Stack
 
-| Category | Package | Version |
-|---|---|---|
-| **UI Library** | `react` | 19.2.8 |
-| **Build Tool** | `vite` | 8.3.0 |
-| **Styling** | `tailwindcss` | 4.3.3 |
-| **Animation** | `framer-motion` | 13.4.4 |
-| **Form Management** | `react-hook-form` | 7.88.0 |
-| **Validation** | `zod` | 4.6.5 |
-| **Icons** | `react-icons` | 5.7.0 |
-| **Routing** | `react-router-dom` | 7.18.4 |
-| **HTTP** | `axios` | 1.20.0 |
+| Category            | Package            | Version |
+| ------------------- | ------------------ | ------- |
+| **UI Library**      | `react`            | 19.2.8  |
+| **Build Tool**      | `vite`             | 8.3.0   |
+| **Styling**         | `tailwindcss`      | 4.3.3   |
+| **Animation**       | `framer-motion`    | 13.4.4  |
+| **Form Management** | `react-hook-form`  | 7.88.0  |
+| **Validation**      | `zod`              | 4.6.5   |
+| **Icons**           | `react-icons`      | 5.7.0   |
+| **Routing**         | `react-router-dom` | 7.18.4  |
+| **HTTP**            | `axios`            | 1.20.0  |
 
 ---
 
@@ -252,25 +262,6 @@ protofilo/
 └── README.md
 ```
 
----
-
-## ⚡ Performance Optimizations
-
-| Optimization | Technique | Impact |
-|---|---|---|
-| Lazy-load below-fold sections | `React.lazy` + `Suspense` | Smaller initial JS bundle |
-| Vendor chunk splitting | `manualChunks(id)` in Vite config | Better browser cache hits |
-| Aurora glow animations | Pure CSS `@keyframes` + `will-change` | Replaces 3 Framer infinite loops |
-| Floating badge animation | CSS `@keyframes badgeFloat` | Zero JS animation overhead |
-| Prevent re-renders | `memo()` on TypewriterHeading & ProjectCard | Stops unnecessary reconciliation |
-| GPU layer promotion | `will-change: transform` | Composited layer, smooth 60fps |
-| Hero portrait loading | `fetchPriority="high"` + `decoding="async"` | Faster LCP |
-| Below-fold images | `loading="lazy"` + `decoding="async"` | Non-blocking image decoding |
-| Scroll animations | `viewport={{ once: true }}` on all `whileInView` | Fire once, never repeat |
-| Production minifier | OXC minifier + `target: "es2020"` | Smallest possible output bundle |
-
----
-
 ## 🛠 Getting Started
 
 ### 1. Clone the repository
@@ -310,14 +301,14 @@ npm run preview
 
 ## 📬 Contact
 
-| Method | Details |
-|---|---|
-| 📧 Email | ahmedfgytubfs@gmail.com |
-| 📞 WhatsApp | [+20 101 007 6017](https://wa.me/201010076017) |
-| 📍 Location | Qena, Egypt |
-| 🐙 GitHub | [github.com/ahmedragab124](https://github.com/ahmedragab124) |
-| 💼 LinkedIn | [linkedin.com/in/ahmed-ragab-9a6680284](https://www.linkedin.com/in/ahmed-ragab-9a6680284) |
-| 📸 Instagram | [instagram.com/_abo__ragab](https://www.instagram.com/_abo__ragab/) |
+| Method       | Details                                                                                    |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| 📧 Email     | ahmedfgytubfs@gmail.com                                                                    |
+| 📞 WhatsApp  | [+20 101 007 6017](https://wa.me/201010076017)                                             |
+| 📍 Location  | Qena, Egypt                                                                                |
+| 🐙 GitHub    | [github.com/ahmedragab124](https://github.com/ahmedragab124)                               |
+| 💼 LinkedIn  | [linkedin.com/in/ahmed-ragab-9a6680284](https://www.linkedin.com/in/ahmed-ragab-9a6680284) |
+| 📸 Instagram | [instagram.com/\_abo\_\_ragab](https://www.instagram.com/_abo__ragab/)                     |
 
 ---
 
