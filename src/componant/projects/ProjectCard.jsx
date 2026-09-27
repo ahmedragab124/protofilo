@@ -27,12 +27,12 @@ function ProjectCard({ project, isActive, cardWidth = 340, onClick }) {
         />
 
         {/* Number Badge */}
-        <span className="absolute top-3 left-3 flex h-6 w-6 items-center justify-center rounded-full bg-white/90 text-[10px] font-bold text-[#19333a] shadow-sm backdrop-blur-sm">
+        <span className="absolute top-3 left-3 flex h-6 w-6 items-center justify-center rounded-full bg-white/95 text-[10px] font-bold text-[#19333a] shadow-sm">
           {project.id}
         </span>
 
         {/* Category Badge */}
-        <span className="absolute top-3 left-11 rounded-full bg-white/90 px-3 py-1 text-[9px] font-bold tracking-wider text-[#0f766e] shadow-sm backdrop-blur-sm uppercase">
+        <span className="absolute top-3 left-11 rounded-full bg-white/95 px-3 py-1 text-[9px] font-bold tracking-wider text-[#0f766e] shadow-sm uppercase">
           {project.category}
         </span>
 

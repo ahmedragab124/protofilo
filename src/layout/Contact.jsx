@@ -13,8 +13,8 @@ function Contact() {
       id="contact"
     >
       {/* Background Decorative Ambient Circles */}
-      <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-[#14b8a6]/15 blur-3xl" />
-      <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-[#0f766e]/20 blur-3xl" />
+      <div className="hidden md:block pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-[#14b8a6]/15 blur-2xl" />
+      <div className="hidden md:block pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-[#0f766e]/20 blur-2xl" />
 
       <div className="relative z-10 grid grid-cols-1 gap-10 lg:grid-cols-[0.88fr_1.12fr] lg:gap-12 items-start">
         {/* Left Side: Header & Contact Info Cards */}

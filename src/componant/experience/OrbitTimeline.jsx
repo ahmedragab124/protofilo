@@ -149,11 +149,10 @@ function OrbitTimeline({ experiences, activeIndex, onSelect }) {
             strokeDasharray="6 6"
             animate={{
               strokeDashoffset: -activeIndex * 55,
-              strokeOpacity: [0.35, 0.85, 0.35],
+              strokeOpacity: 0.6,
             }}
             transition={{
               strokeDashoffset: { type: "spring", stiffness: 180, damping: 20 },
-              strokeOpacity: { duration: 1.5, repeat: Infinity },
             }}
           />
         </svg>
@@ -163,14 +162,11 @@ function OrbitTimeline({ experiences, activeIndex, onSelect }) {
           <motion.div
             animate={{ rotate: activeIndex * 90 }}
             transition={{ type: "spring", stiffness: 150, damping: 16 }}
-            className="relative grid h-10 w-10 place-items-center rounded-full border-2 border-[#0f766e]/40 bg-white text-[#0f766e] shadow-md"
+            className="relative grid h-10 w-10 place-items-center rounded-full border-2 border-[#0f766e]/40 bg-white text-[#0f766e] shadow-md transform-gpu"
           >
-            <motion.div
-              animate={{ rotate: -activeIndex * 360 }}
-              transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-            >
+            <div className="animate-compass-spin">
               <FaCompass className="text-base" />
-            </motion.div>
+            </div>
           </motion.div>
           <span className="text-[9.5px] tracking-[2px]">ORBIT</span>
         </div>
@@ -232,11 +228,8 @@ function OrbitTimeline({ experiences, activeIndex, onSelect }) {
 
                     {/* Active Dot Indicator */}
                     {isActive && (
-                      <motion.span
-                        initial={{ scale: 0 }}
-                        animate={{ scale: [1, 1.3, 1] }}
-                        transition={{ repeat: Infinity, duration: 1.8 }}
-                        className="ml-auto h-2.5 w-2.5 rounded-full bg-[#0f766e] shadow-[0_0_8px_#0f766e]"
+                      <span
+                        className="ml-auto h-2.5 w-2.5 rounded-full bg-[#0f766e] shadow-[0_0_8px_#0f766e] animate-pulse"
                       />
                     )}
                   </motion.button>

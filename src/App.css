@@ -369,3 +369,113 @@
     max-width: none;
   }
 }
+
+/* ========================================================
+   HARDWARE-ACCELERATED GPU ANIMATIONS (60FPS MOBILE)
+   ======================================================== */
+
+.transform-gpu {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: transform, opacity;
+}
+
+/* Glassmorphism GPU Layer Promotion */
+.backdrop-blur-gpu {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  transform: translateZ(0);
+  will-change: backdrop-filter, transform;
+}
+
+/* 1. GPU Aurora Glow Orbs Animations */
+@keyframes auroraFloat1 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translate3d(35px, -35px, 0) scale(1.18);
+    opacity: 0.55;
+  }
+}
+
+@keyframes auroraFloat2 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate3d(-40px, 40px, 0) scale(1.22);
+    opacity: 0.5;
+  }
+}
+
+@keyframes auroraFloatCenter {
+  0%, 100% {
+    transform: translate3d(-50%, -50%, 0) scale(0.95);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translate3d(-50%, -50%, 0) scale(1.18);
+    opacity: 0.4;
+  }
+}
+
+.animate-aurora-1 {
+  animation: auroraFloat1 8s ease-in-out infinite;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.animate-aurora-2 {
+  animation: auroraFloat2 10s ease-in-out infinite 1s;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.animate-aurora-center {
+  animation: auroraFloatCenter 7s ease-in-out infinite;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* 2. GPU Floating Tech Badges Animation */
+@keyframes floatBadgeGpu {
+  0%, 100% {
+    transform: translate3d(0, -9px, 0);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translate3d(0, 9px, 0);
+    opacity: 1;
+  }
+}
+
+.animate-float-badge {
+  animation: floatBadgeGpu 4s ease-in-out infinite;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* 3. GPU Compass Spin */
+@keyframes compassSpinGpu {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-compass-spin {
+  animation: compassSpinGpu 12s linear infinite;
+  will-change: transform;
+  transform: translateZ(0);
+}
+

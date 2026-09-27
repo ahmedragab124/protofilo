@@ -257,7 +257,7 @@ protofilo/
 │           ├── ServiceCard.jsx
 │           └── servicesData.js                ← 4 services data
 │
-├── vite.config.js                             ← manualChunks + OXC minifier
+├── vite.config.js
 ├── package.json
 └── README.md
 ```

@@ -11,7 +11,7 @@ function ServiceCard({ service, index }) {
       viewport={{ once: true, margin: "-60px" }}
       transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
       whileHover={{ y: -7 }}
-      className="group flex flex-col justify-between rounded-2xl border border-[#1d444b] bg-[#122c31]/90 p-7 sm:p-8 transition-all duration-300 hover:bg-[#18393f] hover:border-[#20958a] hover:shadow-[0_20px_45px_rgba(32,149,138,0.22)] backdrop-blur-md"
+      className="group flex flex-col justify-between rounded-2xl border border-[#1d444b] bg-[#122c31] p-7 sm:p-8 transition-all duration-300 hover:bg-[#18393f] hover:border-[#20958a] hover:shadow-[0_20px_45px_rgba(32,149,138,0.22)] transform-gpu"
     >
       <div>
         {/* Header Row: Number Badge & Icon Container */}

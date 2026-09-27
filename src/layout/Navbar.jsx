@@ -40,7 +40,7 @@ function Navbar() {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -80, opacity: 0 }}
           transition={{ type: "spring", stiffness: 260, damping: 22 }}
-          className="fixed top-4 left-0 right-0 z-50 mx-auto flex h-[62px] w-[calc(100%-40px)] max-w-[1080px] items-center justify-between rounded-2xl border border-[#d6e8e0]/90 bg-[#eff8f4]/85 px-4 text-xs text-[#1d383d] shadow-[0_12px_35px_rgba(25,75,65,0.12)] backdrop-blur-xl max-[560px]:top-3 max-[560px]:w-[calc(100%-24px)]"
+          className="fixed top-4 left-0 right-0 z-50 mx-auto flex h-[62px] w-[calc(100%-40px)] max-w-[1080px] items-center justify-between rounded-2xl border border-[#d6e8e0] bg-[#eff8f4]/95 px-4 text-xs text-[#1d383d] shadow-md md:backdrop-blur-xl transform-gpu max-[560px]:top-3 max-[560px]:w-[calc(100%-24px)]"
         >
           <div className="flex items-center gap-2 rounded-full border border-[#d2e9e1] bg-[#f7fbf8]/90 px-3.5 py-1.5 text-[#264a47] shadow-sm transition duration-200 hover:bg-white">
             <span className="h-2 w-2 rounded-full bg-[#10b981] animate-pulse" />
